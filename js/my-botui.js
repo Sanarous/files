@@ -9,6 +9,22 @@ var botui = new BotUI("hello-sanarous")
         }).then(function () {
             botui.message.add({
                 delay: 1100,
+                content: "博客凌乱，希望标题达意，内容详略，愿君可于字句间有所收获"
+            }).then(function () {
+            botui.message.add({
+                delay: 1100,
+                content: "本网站的各内容页都有版权标识，若能得欣赏，望转载标注来源"
+            }).then(function () {
+            botui.message.add({
+                delay: 1100,
+                content: "反对抄袭与简单的复制粘贴，若发现本站有此现象，可严厉批评"
+            }).then(function () {
+            botui.message.add({
+                delay: 1100,
+                content: "若见内容错漏、超链失效，愿寄言告，若编辑提交合并，将感泣"
+            }).then(function () {
+            botui.message.add({
+                delay: 1100,
                 content: "你有什么想对 Sanarous 说的嘛？"
             }).then(function () {
                 botui.action.button({
