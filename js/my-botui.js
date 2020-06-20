@@ -1,7 +1,7 @@
 var botui = new BotUI("hello-sanarous")
     botui.message.add({
         delay: 800,
-        content: "Hi, 来访的小伙伴 👋"
+        content: "Hi, 来访的朋友，你好呀 👋"
     }).then(function () {
         botui.message.add({
             delay: 1100,
@@ -21,11 +21,7 @@ var botui = new BotUI("hello-sanarous")
             }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "若见内容错漏、超链失效，愿寄言告，若编辑提交合并，将感泣"
-            }).then(function () {
-            botui.message.add({
-                delay: 1100,
-                content: "你有什么想对 Sanarous 说的嘛？"
+                content: "若见内容错漏、超链失效，愿寄言告，不胜感激"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
@@ -60,7 +56,7 @@ var botui = new BotUI("hello-sanarous")
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "这里可以交换友链"
+                content: "这里可以留个 jio 印或者交换友链"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
